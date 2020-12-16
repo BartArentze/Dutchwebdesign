@@ -6,7 +6,7 @@
 }
 
 .nav-link-top {
-    font-weight: 900;
+    font-weight: 800;
     color: #191919 !important; /* Bootstrap overwrite*/
     font-size: 20px;
     padding: 30px 25px 20px !important; /* Bootstrap overwrite*/
@@ -26,4 +26,37 @@
     font-size: 15px;
     padding: 15px 25px !important; /* Bootstrap overwrite*/
     font-family: 'Avenir Next', sans-serif;
+}
+
+.items {
+    position: absolute;
+    top: 40px;
+    right: 0;
+}
+
+.search-icon {
+    margin-right: 60px;
+}
+
+.language-selector {
+    height: 20px;
+    width: 30px;
+}
+
+.language-text {
+    padding: 0 8px;
+    font-weight: 300;
+    color: #585858;
+    font-size: 15px;
+    font-family: 'Avenir Next', sans-serif;
+}
+
+.arrow {
+    color: #585858;
+    height: 15px;
+    width: 15px;
+}
+
+.content {
+    height: 500px;
 }
