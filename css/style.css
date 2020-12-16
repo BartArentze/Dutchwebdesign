@@ -5,11 +5,25 @@
     width: 130px;
 }
 
-.nav-link {
+.nav-link-top {
     font-weight: 900;
     color: #191919 !important; /* Bootstrap overwrite*/
     font-size: 20px;
     padding: 30px 25px 20px !important; /* Bootstrap overwrite*/
     font-family: 'Avenir Next', sans-serif;
     text-align: center;
+}
+
+.bottom-nav {
+    position: absolute;
+    top: 80px;
+    left: 30%;
+}
+
+.nav-link-bottom {
+    font-weight: 300;
+    color: #191919 !important; /* Bootstrap overwrite*/
+    font-size: 15px;
+    padding: 15px 25px !important; /* Bootstrap overwrite*/
+    font-family: 'Avenir Next', sans-serif;
 }
